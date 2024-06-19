@@ -1,6 +1,5 @@
 import os
 import streamlit as st
-import google.generativeai as genai
 
 # Get the Gemini API key from the environment variables
 API_KEY = os.environ('GEMINI_API_KEY')
